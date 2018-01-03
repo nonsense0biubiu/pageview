@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pageview_bg"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+  >
+
+        <TextView
+            android:id="@+id/pre_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上一页"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingBottom="@dimen/padding_top"
+            android:paddingTop="@dimen/padding_top"
+            android:textColor="@color/btn_page"
+            android:textSize="@dimen/font_page_size" />
+
+        <TextView
+            android:id="@+id/tv_num_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingBottom="@dimen/padding_top"
+            android:paddingTop="@dimen/padding_top"
+            android:text="0/0"
+            android:textColor="@color/pageview_base_color"
+            android:textSize="@dimen/font_page_size" />
+
+        <TextView
+            android:id="@+id/next_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:text="下一页"
+            android:paddingBottom="@dimen/padding_top"
+            android:paddingTop="@dimen/padding_top"
+            android:textColor="@color/btn_page"
+            android:textSize="@dimen/font_page_size" />
+
+    </LinearLayout>
+
+</LinearLayout>
